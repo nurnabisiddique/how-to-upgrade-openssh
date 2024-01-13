@@ -1,7 +1,6 @@
-# How to upgrade openssh into linux server 
+# How to perform an upgrade of OpenSSH on a Linux server:
 
-I had a requirements for which need to upgrade ssh version. To satisfy it, I have tried to upgrade ssh but could not make it sucessfully. Sometimes, it is upgrading properly and showing the correct version 
-from shell console but from ssh checker it was still showing old ssh version. Below script will overcome the problem and install ssh successfully. 
+I encountered a specific requirement that necessitated upgrading the SSH version. Despite attempting the upgrade, I faced challenges achieving it. Occasionally, the upgrade process would seemingly complete, displaying the correct version in the shell console, but the SSH checker continued to report the old version. The script provided below addresses this issue, ensuring a successful installation of the upgraded SSH.
 
 # install into centos >=7
 
