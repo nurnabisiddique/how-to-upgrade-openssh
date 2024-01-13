@@ -2,7 +2,7 @@
 How to install openssh into linux
 # install into centos >=7
 
-<pre>
+```
 #!/bin/sh
 yum -y update
 yum install -y make gcc perl-core pcre-devel wget zlib-devel
@@ -23,11 +23,11 @@ source /etc/profile.d/openssl.sh
 logout
 which openssl
 openssl version
-</pre>
+```
 
 ## install into ubuntu >=22.0
 
-<pre>
+```
 #!/bin/sh
 sudo apt-get update
 sudo apt-get install -y make gcc perl libssl-dev libpcre3-dev zlib1g-dev
@@ -47,4 +47,4 @@ source /etc/profile.d/openssl.sh
 logout  # Note: This line might not work as intended in a script, consider removing it.
 which openssl
 openssl version
-</pre>
+```
